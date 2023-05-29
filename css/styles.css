@@ -1,0 +1,166 @@
+:root {
+  --accent-color: #4d5ae5;
+  --second-accent-color: #404bbf;
+  --first-main-color: #2e2f42;
+  --second-main-color: #434455;
+  --additional-color: #f4f4fd;
+  --main-backgroud-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--second-main-color);
+  background-color: var(--main-backgroud-color);
+}
+
+/* -------------------HEADER------- */
+/* -------------------LOGO--------- */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-studio {
+  color: var(--first-main-color);
+}
+
+/* -------------------NAV--------- */
+.list {
+  list-style: none;
+}
+
+.header-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--first-main-color);
+}
+
+.header-list-link {
+  color: var(--first-main-color);
+}
+
+.header-list .link:hover,
+.header-list .link:focus {
+  color: var(--second-accent-color);
+}
+
+/* -------------------ADRESS--------- */
+.header-adress {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-adress .link:hover,
+.header-adress .link:focus {
+  color: var(--second-accent-color);
+}
+
+.header-adress-link {
+  color: var(--second-main-color);
+}
+
+/* -------------------HERO--------- */
+.hero {
+  background-color: var(--first-main-color);
+}
+.hero-text {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-backgroud-color);
+}
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--main-backgroud-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.hero .link:hover,
+.hero .link:focus {
+  background-color: var(--second-accent-color);
+}
+
+/* -------------------Advantages--------- */
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--first-main-color);
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-main-color);
+}
+
+/* -------------------What are we doing--------- */
+.title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--first-main-color);
+}
+
+/* -------------------Our Team--------- */
+.team {
+  background-color: var(--additional-color);
+}
+
+.team-item {
+  background-color: var(--main-backgroud-color);
+}
+
+/* -------------------Footer--------- */
+.footer {
+  background-color: var(--first-main-color);
+}
+
+.footer-studio {
+  color: var(--additional-color);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--additional-color);
+}
+
+/* -------------------Portfolio--------- */
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: var(--additional-color);
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--second-accent-color);
+  color: var(--main-backgroud-color);
+}
