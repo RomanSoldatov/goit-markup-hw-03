@@ -87,11 +87,11 @@ img {
   color: var(--first-main-color);
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-list-link {
   color: var(--first-main-color);
+  padding: 24px 0;
 }
 
 .header-list .link:hover,
