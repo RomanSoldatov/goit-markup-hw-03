@@ -12,8 +12,48 @@ body {
   color: var(--second-main-color);
   background-color: var(--main-backgroud-color);
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
 /* -------------------HEADER------- */
+.header-class {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 /* -------------------LOGO--------- */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -23,6 +63,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
+  margin-right: 76px;
 }
 
 .link {
@@ -44,8 +85,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--first-main-color);
+  display: flex;
+  gap: 40px;
 }
 
+.header-items {
+  padding: 24px 0;
+}
 .header-list-link {
   color: var(--first-main-color);
 }
@@ -61,6 +107,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  gap: 40px;
 }
 
 .header-adress .link:hover,
