@@ -37,11 +37,12 @@ ul {
 img {
   display: block;
 }
+
 .container {
   width: 1158px;
-  margin: 0 auto;
   padding: 0 15px;
 }
+
 /* -------------------HEADER------- */
 .header-class {
   border-bottom: 1px solid #e7e9fc;
@@ -155,6 +156,16 @@ img {
 }
 
 /* -------------------Advantages--------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 
 .advanteges {
   padding: 120px 0;
